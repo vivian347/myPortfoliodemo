@@ -570,3 +570,41 @@ h1.my-profession {
 .project-tile:hover .code {
   color: var(--skin-color);
 }
+
+/* contact */
+
+.contact-title {
+  color: var(--skin-color);
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  /* margin-left: 50%; */
+}
+
+.contact-sub-title {
+  color: var(--text-black-900);
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 60px;
+  /* margin-left: 50%; */
+}
+
+.contact .row .contact-info-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: right;
+}
+
+.contact .contact-info-item .icon {
+  display: inline-block;
+}
+
+.contact .contact-info-item .icon .fa {
+  font-size: 25px;
+  color: var(--skin-color);
+}
