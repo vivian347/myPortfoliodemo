@@ -1,0 +1,17 @@
+# Query: 0.35
+# ContextLines: 1
+
+3 results - 1 file
+
+myPortfolio/style.css:
+  479    text-align: center;
+  480:   transition: all 0.3s ease;
+  481  }
+
+  493    text-align: center;
+  494:   transition: all 0.3s ease;
+  495  }
+
+  499    color: var(--skin-color);
+  500:   transition: all 0.3s ease;
+  501  }
