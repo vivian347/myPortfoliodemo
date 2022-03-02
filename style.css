@@ -7,6 +7,13 @@
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
 }
+body.dark {
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --text-black-700: #e9e9e9;
+}
 body {
   margin: 0;
   padding: 0;
@@ -108,7 +115,7 @@ ul {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 /* aside */
-.aside {
+/* .aside {
   width: 270px;
   background: var(--bg-black-100);
   position: fixed;
@@ -121,11 +128,11 @@ ul {
   justify-content: center;
   align-items: center;
   z-index: 10;
-}
+} */
 
 .logo {
   position: absolute;
-  top: 50px;
+  top: 0px;
   font-size: 30px;
   text-transform: capitalize;
 }
@@ -201,11 +208,20 @@ ul {
   left: 13px;
 }
 .nav {
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: beige;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
 }
 .nav li {
   margin-bottom: 20px;
-  display: block;
+  display: flex;
 }
 .nav li a {
   font-size: 16px;
@@ -697,5 +713,21 @@ h1.my-profession {
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-li {
+    margin: 0 1rem;
+  }
+
+  .nav-li a {
+    display: block;
+    font-size: 2.2rem;
+    padding: 2rem;
   }
 }
