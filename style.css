@@ -207,21 +207,21 @@ ul {
   top: 24px;
   left: 13px;
 }
+
 .nav {
-  /* margin-top: 50px; */
-  position: fixed;
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
   background-color: beige;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 .nav li {
   margin-bottom: 20px;
-  display: flex;
+  float: left;
 }
 .nav li a {
   font-size: 16px;
