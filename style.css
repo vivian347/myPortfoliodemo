@@ -43,7 +43,7 @@ ul {
   opacity: 1;
 }
 .main-content {
-  padding-left: 270px;
+  padding-left: 2px;
 }
 .padd-15 {
   padding-left: 15px;
@@ -209,12 +209,12 @@ ul {
 }
 .nav {
   /* margin-top: 50px; */
+  position: fixed;
   display: flex;
   justify-content: flex-end;
-  position: fixed;
+  width: 100%;
   top: 0;
   left: 0;
-  width: 100%;
   background-color: beige;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
