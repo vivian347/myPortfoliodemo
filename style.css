@@ -135,6 +135,7 @@ ul {
   top: 0px;
   font-size: 30px;
   text-transform: capitalize;
+  z-index: 11;
 }
 .logo a {
   color: var(--text-black-900);
